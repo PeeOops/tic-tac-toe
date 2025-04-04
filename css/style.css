@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --alice-blue: #e4f1fe;
+    --maya-blue: #8dc6ff;
+    --charcoal-blue: #22313f;
+    --dark-slate: #34495e;
+}
+
+@font-face {
+    font-family: bitshow;
+    src: url(../assets//fonts/bitshow.otf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: bitshow, sans-serif;
+    background-color: var(--alice-blue);
+}
+
+.game-title{
+    color: var(--dark-slate);
+}
